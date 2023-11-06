@@ -1,6 +1,6 @@
 # Metrics-Analysis
 
-### About
+## About
 
 In this repository are some statistical analysis of various software metrics from the [NASA MDP](https://github.com/klainfo/NASADefectDataset/tree/master) dataset. The metrics are analyzed using the python programming language.
 
@@ -15,3 +15,7 @@ In this repository are some statistical analysis of various software metrics fro
    (If you are using Bash, run the following command instead: `source Scripts/activate`)
 5. Install the required packages by running the following command:
    `pip install -r requirements.txt`
+
+## Side Note
+
+- You may need to install the Jupyter Notebook Renderers extension for VS Code to render the graphs in the notebook. You can install it [here](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter-renderers). Then, change the presentation of your Notebook's output cell to `application/vnd.plotly.v1+json`.
